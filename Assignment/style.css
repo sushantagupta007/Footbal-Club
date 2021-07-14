@@ -308,7 +308,7 @@
    
     .featuredImage img{
         width:340px;
-        height:248px;
+        height:248px; 
     }
     .watch-highlight-button{
         margin-left: 10px;
@@ -318,6 +318,12 @@
 /* News Container */
     .newcontainer{
         grid-template-columns: 1fr;
+    }
+    .newsCard p, a {
+        margin-left: 20px;
+    }
+    .newsCard a{
+        font-size: 18px;
     }
 /* News Container */
 }    
