@@ -15,12 +15,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width:1161px
 }
 
 /* CSS rule for Navbar */
 .header-nav{
-    width:100%;
+    width:1161px;
     display: flex;
     justify-content: space-between;
 }
@@ -51,7 +50,7 @@
 
 /* CSS rule for Banner */
 .copa-logo-title{
-    width:100%;
+    width:1161px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
