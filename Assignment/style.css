@@ -252,7 +252,7 @@
 /* Header Responsive */
 /* Header Banner Responsive */
     .copa-logo-title{
-        width:100vw;
+        width:100%;
         grid-template-columns: 1fr;
     }
     .copa-title h1{
@@ -288,7 +288,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width:100vw;
+        width:100%;
         height:auto;
     }
     .highlight-text{
@@ -326,6 +326,10 @@
         font-size: 18px;
     }
 /* News Container */
+    /* Footer  */
+    .footer-logo img{
+        width:100%;
+    }
 }    
 
 
