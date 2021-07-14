@@ -237,13 +237,18 @@
 }
 /* CSS rule for footer */
 
-/* Media Queries */
+/* Media Queries for Mobile Devices up 480px*/
 
 @media only screen and (max-width: 480px){
+/* Header Responsive */
+    #header{
+        height:auto;
+    }
     .header-nav{
         display: none;
     }
-    
+/* Header Responsive */
+/* Header Banner Responsive */
     .copa-logo-title{
         width:100vw;
         grid-template-columns: 1fr;
@@ -252,19 +257,27 @@
         font-size: 36px;
         margin: 69px 49px 25px 33px
     }
-    .watch-button{
-        margin-left: 33px;
-        margin-bottom: 50px;
-    }   
     .copa-logo img{
         width:329px;
         height: 260px;
     }
+    .copa-logo img:hover{
+        animation-iteration-count: 1;
+    }
+
+    .watch-button{
+        margin-left: 33px;
+        margin-bottom: 50px;
+    }  
+/* Header Banner Responsive */ 
+/* Player Card Responsive */
     .player-cards{
         display: grid;
         grid-template-columns:1fr;
     }
-    /*High Light CSS Responsive*/
+/* Player Card Responsive */
+
+/*High Light CSS Responsive*/
     .highlights{
         flex-direction: column;
         align-items: center;
@@ -283,6 +296,7 @@
     .highlight-text p{
         margin-left: 10px;
     }
+   
     .featuredImage img{
         width:340px;
         height:248px;
@@ -290,12 +304,13 @@
     .watch-highlight-button{
         margin-left: 10px;
     }
+/*High Light CSS Responsive*/
+
+/* News Container */
     .newcontainer{
         grid-template-columns: 1fr;
     }
-    .copa-logo img:hover{
-        animation-iteration-count: 1;
-    }
-}
+/* News Container */
+}    
 
 /* Media Queries */
